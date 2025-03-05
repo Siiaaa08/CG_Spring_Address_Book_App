@@ -1,3 +1,4 @@
+
 package com.example.addressbookapp;
 
 import org.slf4j.Logger;
@@ -14,6 +15,8 @@ public class AddressbookappApplication {
 		ApplicationContext context = SpringApplication.run(AddressbookappApplication.class, args);
 		log.info("Application has started in {} environment",
 				context.getEnvironment().getProperty("environment"));
-	}
+		log.info("Employee Payroll DB User is {}",
+				context.getEnvironment().getProperty("spring.datasource.username"));
 
+	}
 }
