@@ -1,3 +1,4 @@
+
 package com.example.addressbookapp.dto;
 
 import com.example.addressbookapp.model.AddressBookModel;
@@ -5,6 +6,7 @@ import jakarta.persistence.*;
 
 
 public class AddressBookDTO {
+    private Long id;
     private String name;
     private String phone;
     private String email;
@@ -12,9 +14,15 @@ public class AddressBookDTO {
     public AddressBookDTO() {}
 
     public AddressBookDTO(AddressBookModel contact) {
+        this.id=contact.getId();
         this.name = contact.getName();
         this.phone = contact.getPhone();
         this.email = contact.getEmail();
+    }
+    public Long getId(){return id;}
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() { return name; }
@@ -25,4 +33,3 @@ public class AddressBookDTO {
     public void setEmail(String email) { this.email = email; }
 
 }
-
