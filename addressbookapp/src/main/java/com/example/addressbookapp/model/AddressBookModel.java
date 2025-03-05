@@ -1,7 +1,10 @@
+
 package com.example.addressbookapp.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "addressdata")
 public class AddressBookModel {
@@ -21,19 +24,5 @@ public class AddressBookModel {
         this.email = email;
     }
 
-    public String getEmail() {
-        return email;
-    }
 
-    public String getName() {
-        return name;
-    }
-
-    public String getPhone() {
-        return phone;
-    }
-
-    public Long getId() {
-        return Id;
-    }
 }
