@@ -1,0 +1,7 @@
+
+2025-03-02T03:07:50.023+05:30  INFO 10344 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Starting AddressBookAppApplication using Java 23.0.2 with PID 10344 (C:\Users\HP\Downloads\AddressBookApp\target\classes started by HP in C:\Users\HP\Downloads\AddressBookApp)
+2025-03-02T03:07:50.026+05:30 DEBUG 10344 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-02T03:07:50.028+05:30  INFO 10344 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-03-02T03:07:54.397+05:30  WARN 10344 --- [AddressBookApp] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02T03:07:54.941+05:30  INFO 10344 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : Started AddressBookAppApplication in 5.525 seconds (process running for 6.133)
+2025-03-02T03:07:54.946+05:30  INFO 10344 --- [AddressBookApp] [restartedMain] c.e.A.AddressBookAppApplication          : App has started!!!
